@@ -246,7 +246,8 @@ body {
 .equipment-card .icon {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background: #FFF;
+    border: 1px solid #CCC;
     border-radius: 12px;
     display: flex;
     align-items: center;
