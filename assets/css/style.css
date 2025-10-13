@@ -116,11 +116,13 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+    background: linear-gradient(135deg, rgba(30, 51, 84, 0.95) 0%, rgba(215, 83, 56, 0.85) 100%),
+                url('https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=1920') center center/cover no-repeat;
     color: #fff;
-    padding: 100px 0 80px;
+    padding: 180px 0 120px;
     position: relative;
     overflow: hidden;
+    min-height: 600px;
 }
 
 .hero-section::before {
@@ -130,8 +132,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="none"/><path d="M0 0L100 100M100 0L0 100" stroke="rgba(255,255,255,0.05)" stroke-width="2"/></svg>');
-    opacity: 0.1;
+    background: linear-gradient(to bottom, rgba(30, 51, 84, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%);
+    z-index: 0;
 }
 
 .hero-section .container {
@@ -140,16 +142,18 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section p {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
-    opacity: 0.95;
+    opacity: 1;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .hero-section .btn {
@@ -395,8 +399,17 @@ img[loading="lazy"].loaded {
 }
 
 @media (max-width: 991px) {
+    .hero-section {
+        padding: 140px 0 100px;
+        min-height: 500px;
+    }
+
     .hero-section h1 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
     }
 
     .section-title {
@@ -422,15 +435,16 @@ img[loading="lazy"].loaded {
     }
 
     .hero-section {
-        padding: 60px 0 50px;
+        padding: 100px 0 80px;
+        min-height: 450px;
     }
 
     .hero-section h1 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .hero-section p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .section-title {
