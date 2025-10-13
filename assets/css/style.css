@@ -268,7 +268,7 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .equipment-card p {
