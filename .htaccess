@@ -1,6 +1,6 @@
 # Enable Rewrite Engine
 RewriteEngine On
-RewriteBase /
+RewriteBase /2025/
 
 # Force HTTPS
 RewriteCond %{HTTPS} off
