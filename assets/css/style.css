@@ -164,6 +164,8 @@ body {
 .hero-section .btn-light {
     background-color: var(--secondary-color) !important;
     border-color: var(--secondary-color) !important;
+    color: #FFF;
+    font-weight: 700;
 }
 
 .section-title {
