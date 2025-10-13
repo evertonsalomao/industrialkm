@@ -39,6 +39,7 @@ body {
 
 .navbar-brand img {
     transition: var(--transition);
+    height: 100px;
 }
 
 .navbar-brand:hover img {
