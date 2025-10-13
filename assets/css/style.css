@@ -264,6 +264,13 @@ body {
     color: var(--text-dark);
 }
 
+.equipment-card h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
 .equipment-card p {
     color: var(--text-light);
     line-height: 1.7;
