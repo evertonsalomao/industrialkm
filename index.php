@@ -70,57 +70,63 @@ require_once 'includes/header.php';
 
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">🔧</div>
-                    <h3>Manutenção Preventiva</h3>
-                    <p>Programas de manutenção preventiva para garantir a eficiência e longevidade dos seus equipamentos de refrigeração industrial.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/manutencao-preventiva" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/manutencao-preventiva" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/3862130/pexels-photo-3862130.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Manutenção Preventiva</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">⚡</div>
-                    <h3>Manutenção Corretiva</h3>
-                    <p>Atendimento rápido e eficiente para correção de falhas e problemas em sistemas de refrigeração industrial.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/manutencao-corretiva" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/manutencao-corretiva" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/8961481/pexels-photo-8961481.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Manutenção Corretiva</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">📊</div>
-                    <h3>Manutenção Preditiva</h3>
-                    <p>Análise técnica avançada para prever e prevenir falhas antes que elas aconteçam.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/manutencao-preditiva" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/manutencao-preditiva" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/5691598/pexels-photo-5691598.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Manutenção Preditiva</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">🔄</div>
-                    <h3>Reforma e Revisão</h3>
-                    <p>Reforma completa e revisão técnica de equipamentos de refrigeração industrial nacionais e importados.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/reforma-revisao" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/reforma-revisao" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/4792285/pexels-photo-4792285.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Reforma e Revisão</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">⚙️</div>
-                    <h3>Retrofit de Painéis</h3>
-                    <p>Modernização de painéis de comandos elétricos com tecnologia de ponta e maior eficiência energética.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/retrofit-painel" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/retrofit-painel" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Retrofit de Painéis</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
 
             <div class="col-lg-4 col-md-6 fade-in">
-                <div class="service-card">
-                    <div class="icon">🌱</div>
-                    <h3>Retrofit de Gás Ecológico</h3>
-                    <p>Conversão para gases refrigerantes ecológicos, reduzindo impacto ambiental e custos operacionais.</p>
-                    <a href="<?php echo SITE_URL; ?>/servicos/retrofit-gas" class="btn btn-outline-primary mt-3">Saiba Mais</a>
-                </div>
+                <a href="<?php echo SITE_URL; ?>/servicos/retrofit-gas" class="service-card-link">
+                    <div class="service-card-image" style="background-image: url('https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=800');">
+                        <div class="service-card-overlay">
+                            <h3>Retrofit de Gás Ecológico</h3>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

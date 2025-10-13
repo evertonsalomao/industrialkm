@@ -181,7 +181,52 @@ body {
     margin-bottom: 3rem;
 }
 
-.service-card,
+.service-card-link {
+    display: block;
+    text-decoration: none;
+    height: 100%;
+}
+
+.service-card-image {
+    position: relative;
+    height: 320px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.service-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: linear-gradient(to top, var(--primary-color) 0%, rgba(30, 51, 84, 0.85) 50%, transparent 100%);
+    display: flex;
+    align-items: flex-end;
+    min-height: 180px;
+}
+
+.service-card-overlay h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: var(--transition);
+}
+
+.service-card-link:hover .service-card-image {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.service-card-link:hover .service-card-overlay h3 {
+    transform: translateY(-5px);
+}
+
 .equipment-card {
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -191,14 +236,12 @@ body {
     background: #fff;
 }
 
-.service-card:hover,
 .equipment-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-lg);
     border-color: var(--primary-color);
 }
 
-.service-card .icon,
 .equipment-card .icon {
     width: 60px;
     height: 60px;
@@ -212,7 +255,6 @@ body {
     font-size: 1.8rem;
 }
 
-.service-card h3,
 .equipment-card h3 {
     font-size: 1.4rem;
     font-weight: 600;
@@ -220,7 +262,6 @@ body {
     color: var(--text-dark);
 }
 
-.service-card p,
 .equipment-card p {
     color: var(--text-light);
     line-height: 1.7;
@@ -424,6 +465,19 @@ img[loading="lazy"].loaded {
         font-size: 2rem;
     }
 
+    .service-card-image {
+        height: 280px;
+    }
+
+    .service-card-overlay {
+        min-height: 160px;
+        padding: 1.5rem;
+    }
+
+    .service-card-overlay h3 {
+        font-size: 1.3rem;
+    }
+
     .whatsapp-float {
         width: 50px;
         height: 50px;
@@ -457,6 +511,19 @@ img[loading="lazy"].loaded {
 
     .section-title {
         font-size: 1.75rem;
+    }
+
+    .service-card-image {
+        height: 260px;
+    }
+
+    .service-card-overlay {
+        min-height: 140px;
+        padding: 1.25rem;
+    }
+
+    .service-card-overlay h3 {
+        font-size: 1.2rem;
     }
 }
 
