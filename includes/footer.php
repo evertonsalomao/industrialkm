@@ -3,8 +3,8 @@
 <footer class="site-footer bg-dark text-white pt-5 pb-3">
     <div class="container">
         <div class="row g-4">
-            <div class="col-lg-4 col-md-6">
-                <h3 class="h5 mb-3"><?php echo SITE_NAME; ?></h3>
+            <div class="col-lg-4 col-md-6 text-center text-md-start">
+                <img src="<?php echo SITE_URL; ?>/assets/img/logo.png" alt="<?php echo SITE_NAME; ?>" height="50" loading="eager">
                 <p class="text-light">Empresa do Grupo KM especializada em assistência técnica e manutenção de equipamentos de refrigeração industrial.</p>
                 <p class="mb-1"><strong>CNPJ:</strong> <?php echo SITE_CNPJ; ?></p>
             </div>
