@@ -157,8 +157,8 @@ echo '<script type="application/ld+json">' . json_encode($serviceSchema, JSON_UN
             </div>
 
             <div class="col-lg-4">
-                <div class="fade-in">
-                    <div class="contact-form mb-4 sticky-top">
+                <div class="fade-in sticky-top">
+                    <div class="contact-form mb-4">
                         <h3 class="h5 mb-3">Solicite um Orçamento</h3>
                         <p class="small text-muted mb-4">Preencha o formulário abaixo ou entre em contato pelo WhatsApp</p>
                         <a href="https://wa.me/<?php echo SITE_WHATSAPP; ?>?text=Olá! Gostaria de solicitar um orçamento para manutenção preventiva." class="btn btn-primary w-100 mb-3" target="_blank" rel="noopener">
