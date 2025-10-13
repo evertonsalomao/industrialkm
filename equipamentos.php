@@ -37,7 +37,7 @@ echo getBreadcrumbs($breadcrumbs);
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 fade-in">
                 <div class="equipment-card">
-                    <div class="icon">❄️</div>
+                    <!--<div class="icon">❄️</div>-->
                     <h2 class="h4">Chillers e Unidades de Água Gelada</h2>
                     <p>Manutenção preventiva, corretiva e retrofit de <strong>chillers industriais</strong>, incluindo unidades de água gelada com compressores scroll, parafuso e centrífugos. Atendemos marcas nacionais e importadas.</p>
                     <ul class="small mt-3">
@@ -51,7 +51,7 @@ echo getBreadcrumbs($breadcrumbs);
 
             <div class="col-lg-4 col-md-6 fade-in">
                 <div class="equipment-card">
-                    <div class="icon">💨</div>
+                    <!--<div class="icon">💨</div>-->
                     <h2 class="h4">Fancoil, UTA e AHU</h2>
                     <p>Assistência técnica em <strong>fancoils</strong>, <strong>UTA (Unidade de Tratamento de Ar)</strong> e <strong>AHU (Air Handling Unit)</strong> para climatização de ambientes industriais e comerciais.</p>
                     <ul class="small mt-3">
@@ -65,7 +65,7 @@ echo getBreadcrumbs($breadcrumbs);
 
             <div class="col-lg-4 col-md-6 fade-in">
                 <div class="equipment-card">
-                    <div class="icon">💧</div>
+                    <!--<div class="icon">💧</div>-->
                     <h2 class="h4">Torres de Resfriamento</h2>
                     <p>Manutenção completa em <strong>torres de resfriamento</strong> de fluxo cruzado e contracorrente, incluindo limpeza, tratamento de água e substituição de componentes.</p>
                     <ul class="small mt-3">
