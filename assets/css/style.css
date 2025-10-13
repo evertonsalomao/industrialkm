@@ -117,7 +117,7 @@ body {
 
 .hero-section {
     background: linear-gradient(135deg, rgba(30, 51, 84, 0.95) 0%, rgba(215, 83, 56, 0.85) 100%),
-                url('assets/img/km-bg-hero.jpg') center center/cover no-repeat;
+                url('../img/km-bg-hero.jpg') center center/cover no-repeat;
     color: #fff;
     padding: 180px 0 120px;
     position: relative;
