@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 define('SITE_NAME', 'KM Refrigeração Industrial');
-define('SITE_URL', 'https://kmrefrigeracao.com.br');
+define('SITE_URL', 'https://industrialkm.com.br');
 define('SITE_PHONE', '+55 (XX) XXXXX-XXXX');
 define('SITE_WHATSAPP', '5511999999999');
 define('SITE_EMAIL', 'contato@kmrefrigeracao.com.br');
