@@ -337,7 +337,7 @@ body {
 
 .site-footer {
     margin-top: 80px;
-  background-color: var(--primary-color);
+    background-color: var(--primary-color) !important;
 }
 
 .footer-links li {
