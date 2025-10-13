@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<header class="site-header fixed-top bg-white shadow-sm">
+<header class="site-header bg-white shadow-sm">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="<?php echo SITE_URL; ?>/">
