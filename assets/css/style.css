@@ -29,6 +29,7 @@ body {
 
 .bg-primary, .btn-primary {
   background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
 }
 
 .site-header {
