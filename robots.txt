@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kmrefrigeracao.com.br/sitemap.xml
+
+Disallow: /includes/
+Disallow: /assets/
+Disallow: /.git/
+Disallow: /.env
+Disallow: /config.php
