@@ -50,7 +50,7 @@ body {
     color: var(--text-dark);
     transition: var(--transition);
     position: relative;
-  padding: 0 10px;
+    margin: 0 10px;
 }
 
 .nav-link:hover,
