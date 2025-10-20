@@ -27,7 +27,7 @@ echo getBreadcrumbs($breadcrumbs);
     </div>
 </div>
 
-<section class="py-5">
+<section class="py-5 pt-md-0">
     <div class="container">
         <div class="about-hero-section fade-in">
             <h1>Sobre a KM Refrigeração Industrial</h1>
