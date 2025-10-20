@@ -1,7 +1,7 @@
 <?php
 require_once 'config.php';
 
-$pageTitle = 'Equipamentos de Refrigeração Industrial Atendidos - KM Refrigeração';
+$pageTitle = 'Manutenção de Equipamentos de Refrigeração Industrial Atendidos - KM Refrigeração';
 $pageDescription = 'Assistência técnica especializada em chillers, fancoil, UTA, AHU, torres de resfriamento, resfriadores de painel elétrico, secadores de ar comprimido e mais equipamentos de refrigeração industrial.';
 $pageKeywords = 'chiller industrial, fancoil, UTA, AHU, torre de resfriamento, resfriador painel elétrico, secador ar comprimido, desumidificador industrial';
 $currentPage = 'equipamentos';
