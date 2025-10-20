@@ -170,7 +170,7 @@ body {
 }
 
 .about-hero-section {
-    background: linear-gradient(rgba(30, 51, 84, 0.85), rgba(30, 51, 84, 0.85)), url('/assets/img/km-bg-hero.jpg');
+    background: linear-gradient(rgba(30, 51, 84, 0.85), rgba(30, 51, 84, 0.85)), url('../img/km-bg-hero.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 16px;
