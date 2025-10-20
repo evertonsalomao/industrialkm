@@ -29,11 +29,9 @@ echo getBreadcrumbs($breadcrumbs);
 
 <section class="py-5">
     <div class="container">
-        <div class="row align-items-center mb-5">
-            <div class="col-lg-6 fade-in">
-                <h1 class="section-title">Sobre a KM Refrigeração Industrial</h1>
-                <p class="lead">Empresa do Grupo KM especializada em soluções completas para refrigeração industrial</p>
-            </div>
+        <div class="about-hero-section fade-in">
+            <h1>Sobre a KM Refrigeração Industrial</h1>
+            <p>Empresa do Grupo KM especializada em soluções completas para refrigeração industrial</p>
         </div>
 
         <div class="row g-5">
