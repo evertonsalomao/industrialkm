@@ -49,6 +49,76 @@ echo '<script type="application/ld+json">' . json_encode($serviceSchema, JSON_UN
         <div class="row">
             <div class="col-lg-8 fade-in">
 
+            <h1>Reforma e Revisão de Equipamentos de Refrigeração Industrial</h1>
+
+<p>Restaure a performance, reduza custos e aumente a confiabilidade dos seus sistemas de refrigeração com programas de reforma e revisão planejados sob medida.</p>
+
+<h2>O que é Reforma e Revisão?</h2>
+<p>A reforma e revisão consistem em intervenções técnicas profundas para recuperar desempenho, corrigir desgastes e atualizar componentes e controles, trazendo o equipamento para níveis de operação próximos ao projeto original — ou superiores, quando aplicamos upgrades tecnológicos.</p>
+
+<h2>Benefícios da Reforma e Revisão</h2>
+<ul>
+  <li>✓ Recuperação do desempenho e da eficiência energética</li>
+  <li>✓ Redução de falhas e paradas não programadas</li>
+  <li>✓ Aumento da vida útil de compressores, trocadores e componentes críticos</li>
+  <li>✓ Adequação a normas técnicas e ambientais</li>
+  <li>✓ Menores custos com emergências e peças trocadas prematuramente</li>
+  <li>✓ Relatório técnico detalhado para gestão do ativo</li>
+</ul>
+
+<h2>Equipamentos Atendidos</h2>
+<p>Executamos reforma e revisão em diversos sistemas de refrigeração industrial:</p>
+
+<h4>Chillers e Unidades de Água Gelada</h4>
+<p>Desmontagem dirigida, inspeção de compressores, avaliação de evaporadores/condensadores, limpeza técnica e atualização de controles.</p>
+
+<h4>Fancoils, UTA e AHU</h4>
+<p>Reforma de serpentinas, ventiladores e drenagem; substituição de filtros; revisão elétrica e de automação.</p>
+
+<h4>Torres de Resfriamento</h4>
+<p>Limpeza completa de bandejas/enchimentos, inspeção estrutural e de motorredutor, tratamento de água.</p>
+
+<h4>Resfriadores, Secadores e Sistemas Auxiliares</h4>
+<p>Revisão de painéis elétricos e instrumentação, bombas e válvulas; verificação de linhas e estanqueidade.</p>
+
+<h2>Como Funciona o Processo</h2>
+
+<h4>Diagnóstico Completo</h4>
+<ul>
+  <li>Inspeção visual e funcional</li>
+  <li>Medições de pressão, temperatura, corrente e vibração</li>
+  <li>Comparação com parâmetros de projeto e histórico</li>
+</ul>
+
+<h4>Planejamento da Intervenção</h4>
+<ul>
+  <li>Relatório técnico com escopo, peças e cronograma</li>
+  <li>Orçamento transparente e janela de parada combinada</li>
+</ul>
+
+<h4>Execução da Reforma/Revisão</h4>
+<ul>
+  <li>Desmontagem orientada e limpeza técnica (serpentinas, trocadores, filtros)</li>
+  <li>Substituição/retífica de compressores, bombas, ventiladores e válvulas</li>
+  <li>Revisão elétrica, sensores e automação; atualização de CLP/IHM quando aplicável</li>
+  <li>Recuperação/recarga de fluido refrigerante com conformidade ambiental</li>
+</ul>
+
+<h4>Testes e Comissionamento</h4>
+<ul>
+  <li>Partida assistida e testes em carga</li>
+  <li>Verificação de performance (temperaturas, pressões, consumo)</li>
+  <li>Entrega de relatório final com recomendações operacionais</li>
+</ul>
+
+<h2>Quando Fazer Reforma/Revisão?</h2>
+<ul>
+  <li>Queda acentuada de performance ou aumento de consumo</li>
+  <li>Falhas recorrentes e intervenções corretivas frequentes</li>
+  <li>Equipamentos antigos/obsoletos sem retrofit recente</li>
+  <li>Mudanças de processo ou demanda que exijam readequação</li>
+</ul>
+
             </div>
 
             <div class="col-lg-4">
