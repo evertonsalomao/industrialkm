@@ -257,6 +257,24 @@ body {
     font-size: 1.8rem;
 }
 
+.equipment-card .icon-svg {
+    width: 70px;
+    height: 70px;
+    background: var(--primary-color);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    transition: var(--transition);
+}
+
+.equipment-card:hover .icon-svg {
+    background: var(--secondary-color);
+    transform: scale(1.05);
+}
+
 .equipment-card h3 {
     font-size: 1.4rem;
     font-weight: 600;
