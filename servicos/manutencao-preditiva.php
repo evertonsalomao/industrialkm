@@ -10,7 +10,7 @@ $canonical = SITE_URL . '/servicos/manutencao-preventiva';
 $breadcrumbs = [
     ['name' => 'Início', 'url' => SITE_URL . '/'],
     ['name' => 'Serviços', 'url' => SITE_URL . '/#servicos'],
-    ['name' => 'Manutenção Preventiva', 'url' => SITE_URL . '/servicos/manutencao-preventiva']
+    ['name' => 'Manutenção Preventiva', 'url' => SITE_URL . '/servicos/manutencao-preditiva']
 ];
 
 $serviceSchema = [
