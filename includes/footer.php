@@ -22,10 +22,14 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="h6 mb-3">Serviços</h4>
                 <ul class="list-unstyled footer-links">
-                    <li><a href="<?php echo SITE_URL; ?>/servicos/manutencao-preventiva">Manutenção Preventiva</a></li>
-                    <li><a href="<?php echo SITE_URL; ?>/servicos/manutencao-corretiva">Manutenção Corretiva</a></li>
-                    <li><a href="<?php echo SITE_URL; ?>/servicos/retrofit-gas">Retrofit de Gás Ecológico</a></li>
-                    <li><a href="<?php echo SITE_URL; ?>/servicos/contrato-manutencao">Contrato de Manutenção</a></li>
+                    <?php
+                    require_once __DIR__ . '/db-helper.php';
+                    $footerServices = getAllActiveServices();
+                    $footerServicesLimit = array_slice($footerServices, 0, 6);
+                    foreach ($footerServicesLimit as $footerService):
+                    ?>
+                    <li><a href="<?php echo SITE_URL; ?>/servicos/<?php echo htmlspecialchars($footerService['slug']); ?>"><?php echo htmlspecialchars($footerService['title']); ?></a></li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
 

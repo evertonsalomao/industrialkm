@@ -43,13 +43,13 @@
                             Serviços
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarServicos">
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/manutencao-preventiva">Manutenção Preventiva</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/manutencao-corretiva">Manutenção Corretiva</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/manutencao-preditiva">Manutenção Preditiva</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/reforma-revisao">Reforma e Revisão</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/retrofit-painel">Retrofit de Painel</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/retrofit-gas">Retrofit de Gás Ecológico</a></li>
-                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/contrato-manutencao">Contrato de Manutenção</a></li>
+                            <?php
+                            require_once __DIR__ . '/db-helper.php';
+                            $menuServices = getAllActiveServices();
+                            foreach ($menuServices as $menuService):
+                            ?>
+                            <li><a class="dropdown-item" href="<?php echo SITE_URL; ?>/servicos/<?php echo htmlspecialchars($menuService['slug']); ?>"><?php echo htmlspecialchars($menuService['title']); ?></a></li>
+                            <?php endforeach; ?>
                         </ul>
                     </li>
                     <li class="nav-item">

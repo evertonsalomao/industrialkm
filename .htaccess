@@ -28,14 +28,8 @@ RewriteRule ^equipamentos$ equipamentos.php [L]
 RewriteRule ^contato$ contato.php [L]
 RewriteRule ^politica-de-privacidade$ politica-de-privacidade.php [L]
 
-# Services
-RewriteRule ^servicos/manutencao-preventiva$ servicos/manutencao-preventiva.php [L]
-RewriteRule ^servicos/manutencao-corretiva$ servicos/manutencao-corretiva.php [L]
-RewriteRule ^servicos/manutencao-preditiva$ servicos/manutencao-preditiva.php [L]
-RewriteRule ^servicos/reforma-revisao$ servicos/reforma-revisao.php [L]
-RewriteRule ^servicos/retrofit-painel$ servicos/retrofit-painel.php [L]
-RewriteRule ^servicos/retrofit-gas$ servicos/retrofit-gas.php [L]
-RewriteRule ^servicos/contrato-manutencao$ servicos/contrato-manutencao.php [L]
+# Services - Dynamic URLs
+RewriteRule ^servicos/([a-z0-9\-]+)$ servico.php?s=$1 [L,QSA]
 
 # Security Headers
 <IfModule mod_headers.c>
