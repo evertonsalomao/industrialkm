@@ -30,7 +30,7 @@ echo getBreadcrumbs($breadcrumbs);
 <section class="py-5">
     <div class="container">
         <div class="text-center mb-5 fade-in">
-            <h1 class="section-title">Equipamentos de Refrigeração Industrial</h1>
+            <h1 class="section-title">Manutenção de Equipamentos de Refrigeração Industrial</h1>
             <p class="section-subtitle">Assistência técnica especializada para diversos tipos de equipamentos nacionais e importados</p>
         </div>
 
